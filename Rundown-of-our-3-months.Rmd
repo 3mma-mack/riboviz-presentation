@@ -1,0 +1,106 @@
+---
+title: "Rundown of our 3 months"
+author: "Sophie Winterbourne, Emma MacKenzie, Flic Anderson"
+date: "17/09/2021"
+output: 
+  ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+      $('slide:not(.title-slide, .backdrop, .segue)').append('<footer label=\"riboviz"></footer>');    
+    })
+</script>
+
+<style>
+  footer:after {
+    content: attr(label);
+    font-size: 12pt;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    line-height: 1.9;
+  }
+</style>
+
+<style type="text/css">
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
+
+
+# *Rundown of our 3 months* 
+
+## TODO Us! (Maybe change picture? :D)
+
+<div style="float: left; width: 30%;">
+```{r, out.width = "300"}
+knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-20210519/main/images/Me.jpg")
+```  
+
+
+</div>
+
+<div style="float: right; width: 55%;">
+### TODO Change title of this bit
+
+**Staff** at the [Wallace Lab](https://ewallace.github.io/), TODO from WHEN TO WHEN
+
+* _some_
+* **bullet** 
+* points
+</div>
+
+
+# Outline: 
+
+## Outline: 
+
+* where we started
+* added documentation 
+* upgraded configs 
+* added new dataset
+* updated file names 
+* created meta features scripts 
+* what we learnt
+
+## Where we started:
+
+## Overview of end of honours project
+
+## Upgraded configs 
+
+## Added documentation
+
+## Added new dataset 
+
+## Outputs of new dataset, things to look out for in future
+
+## Updated file names 
+
+## Article writing 
+
+## Created metafeature scripts
+
+## Codon pairs - why, how does it work?
+
+## Single codons - why, how does it work?
+
+## Nucleotides - why, how does it work?
+
+## Recreating data from Gamble et al. 2016
+
+## Comparing inhibitory and optimised codon pairs 
+
+## Next steps
+
+## What we learnt
+
+## Thanks to everyone in the lab!
