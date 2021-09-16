@@ -36,8 +36,6 @@ slides > slide:not(.nobackground):after {
 </style>
 
 
-# *Rundown of our 3 months* 
-
 ## TODO Us! (Maybe change picture? :D)
 
 <div style="float: left; width: 30%;">
@@ -59,8 +57,6 @@ knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-2
 </div>
 
 
-# Outline: 
-
 ## Outline: 
 
 * where we started
@@ -77,15 +73,40 @@ knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-2
 
 ## Upgraded configs 
 
+* Updated configuration yamls in example-datasets by running riboviz.tools.upgrade_config_file 
+
 ## Added documentation
+
+* Add-new-dataset.md in riboviz/example-datasets 
+    - Documentation of steps involved in adding new species and new datasets to the riboviz/example-datasets repository 
+
+* A template with checklist for adding a new dataset
+    - Checklist template you can select when creating an issue ticket for the addition of a new species and/or a new dataset
 
 ## Added new dataset 
 
+* Why _Histoplasma capsulatum_: fungal pathogen, commonly observed in immunocompromised patients 
+
+* Followed documentation in Add-new-dataset.md to test its usability 
+* Added the new species _H. capsulatum_ to example-datasets
+   - Assembled and tested annotation and contamination files for the species 
+* Added a new dataset for _H. capsulatum_ from Anita Sil’s lab
+
 ## Outputs of new dataset, things to look out for in future
+
+* Potentially due to poor annotation, a noncoding sequence is slipping into the final results. Overall there is good periodicity, so potential to analyse in the future
+
+TO DO: add figure
 
 ## Updated file names 
 
+To meet reviewers feedback, some of the confusing names had to be addressed. Pretty tedious work, as numerous files but I got my way through it.
+
 ## Article writing 
+
+* Open science as an undergraduate. 
+* look over and evaluate our time with the lab, gain a publication
+* Practice writing
 
 ## Created metafeature scripts
 
@@ -102,5 +123,12 @@ knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-2
 ## Next steps
 
 ## What we learnt
+
+* Collaboration - prioritization of tasks that aid the team
+* Communication – better updates on Github and clearer comments in code
+* Insights into the process of writing papers
+* Insights into software development and maintenance 
+* Greatly improved the quality of code we write
+
 
 ## Thanks to everyone in the lab!
