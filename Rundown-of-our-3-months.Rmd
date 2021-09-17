@@ -110,7 +110,15 @@ To meet reviewers feedback, some of the confusing names had to be addressed. Pre
 
 ## Created metafeature scripts
 
-## Codon pairs - why, how does it work?
+## Codon pairs workflow
+
+<div style="float: left; width: 30%;">
+
+```{r, out.width = "300"}
+knitr::include_graphics("https://github.com/3mma-mack/riboviz-presentation/blob/2a0a531cd0ac941c99b1eff515acbc21bfc0c55c/Images/Codon_pair_workflow.JPG")
+```  
+
+</div> 
 
 ## Single codons - why, how does it work?
 
