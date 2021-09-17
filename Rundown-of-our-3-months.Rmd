@@ -39,20 +39,22 @@ slides > slide:not(.nobackground):after {
 ## Who are we
 
 <div style="float: left; width: 30%;">
-```{r, out.width = "250"}
-knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-20210519/main/images/Me.jpg")
-```  
-<img src="Images/emma-mackenzie.jpg" alt="Emma" width="250"/>
+<img src="Images/EmmaAndSophie.jpg" alt="Emma and Sophie" width="400"/> 
+<img src="Images/Flic.jpg" alt="Flic" width="150"/>
 
-<img src="Images/Sophie.jpg" alt="Emma" width="250" style="float: right;" />
+</div>
 
-## Who are we 
+<div style="float: right; width: 40%;">
 
-Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from the 21st of June until the start of our masters ### To Do: Flic add her bit
+Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from the 21st of June until the start of our masters 
+
 
 * Completed BSc (Hons) in Biological Sciences (Biotechnology)
 * About to move on to an MSc in Bioinformatics 
-* Studied Botany.
+
+**\+ Flic**, as _day-to-day supervisor_ & resident riboviz guide  
+</div>
+
 
 
 ## Outline: 
@@ -108,13 +110,18 @@ We came in at the start of our honours project with no experience working with G
 
 * Potentially due to poor annotation, a noncoding sequence is slipping into the final results. Overall there is good periodicity, so potential to analyse in the future
 
-TO DO: add figure
+<img src="Images/Hypae_C_ribogrid.JPG" alt="histoplasma" width="500"/>
+
 
 ## Updated file names 
 
 To meet reviewers feedback from the riboviz paper submission, some of the misleading names had to be addressed. After some discussion new names were selected which then had to be replaced.
 
 A substantial task as there were numerous files and arguments that had to be renamed throughout riboviz. 
+
+## File names changed 
+
+<img src="Images/File_name_changes.JPG" alt="histoplasma" width="900"/>
 
 ## Article for The Biochemist  
 
