@@ -36,25 +36,23 @@ slides > slide:not(.nobackground):after {
 </style>
 
 
-## TODO Us! (Maybe change picture? :D)
+## Who are we
 
 <div style="float: left; width: 30%;">
-```{r, out.width = "300"}
+```{r, out.width = "250"}
 knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-20210519/main/images/Me.jpg")
 ```  
+<img src="Images/emma-mackenzie.jpg" alt="Emma" width="250"/>
 
+<img src="Images/Sophie.jpg" alt="Emma" width="250" style="float: right;" />
 
-</div>
+## Who are we 
 
-<div style="float: right; width: 55%;">
-### TODO Change title of this bit
+Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from the 21st of June until the start of our masters ### To Do: Flic add her bit
 
-**Staff** at the [Wallace Lab](https://ewallace.github.io/), TODO from WHEN TO WHEN
-
-* _some_
-* **bullet** 
-* points
-</div>
+* Studied Biotechnology 
+* About to study Bioinformatics 
+* Studied Botany.
 
 
 ## Outline: 
@@ -184,3 +182,7 @@ To meet reviewers feedback, some of the confusing names had to be addressed. Pre
 
 
 ## Thanks to everyone in the lab!
+
+Hopefully see you all at the social and in the future!
+
+<img src="Images/celebrating.JPG" alt="party party" width="500" />
