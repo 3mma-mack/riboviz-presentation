@@ -39,20 +39,20 @@ slides > slide:not(.nobackground):after {
 ## Who are we
 
 <div style="float: left; width: 30%;">
-```{r, out.width = "250"}
-knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-20210519/main/images/Me.jpg")
-```  
-<img src="Images/emma-mackenzie.jpg" alt="Emma" width="250"/>
+<img src="Images/EmmaAndSophie.jpg" alt="Emma and Sophie" width="400"/> 
+<img src="Images/Flic.jpg" alt="Flic" width="150"/>
 
-<img src="Images/Sophie.jpg" alt="Emma" width="250" style="float: right;" />
+</div>
 
-## Who are we 
+<div style="float: right; width: 40%;">
 
-Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from the 21st of June until the start of our masters ### To Do: Flic add her bit
+Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from the 21st of June until the start of our masters 
 
 * Studied Biotechnology 
 * About to study Bioinformatics 
-* Studied Botany.
+
+**\+ Flic**, as _day-to-day supervisor_ & resident riboviz guide  
+</div>
 
 
 ## Outline: 
