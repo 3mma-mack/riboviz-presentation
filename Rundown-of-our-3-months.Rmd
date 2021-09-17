@@ -79,7 +79,7 @@ We came in at the start of our honours project with no experience working with G
 ## Overview of end of honours project
 
 * Sophie was looking into inhibitory codon pairs, and had created scripts with the goal of visualizing these features via metafeature plots when given a codon pair or a single codon.
-* Emma was looking at how the use of upstream open reading frames changed under different conditions, and had created a script to plot reads on a transcript and compare the number of reads present in different regions. 
+* Emma was looking at how the use of upstream open reading frames changed under different conditions, and had created a script to plot reads on a transcript and compare the number of reads present in different transcript regions. 
 
 
 ## Upgraded configs 
