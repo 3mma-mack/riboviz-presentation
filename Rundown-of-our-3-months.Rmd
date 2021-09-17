@@ -108,11 +108,16 @@ We came in at the start of our honours project with no experience working with G
 
 * Potentially due to poor annotation, a noncoding sequence is slipping into the final results. Overall there is good periodicity, so potential to analyse in the future
 
-TO DO: add figure
+<img src="Images/Hypae_C_ribogrid.JPG" alt="histoplasma" width="500"/>
+
 
 ## Updated file names 
 
 To meet reviewers feedback, some of the confusing names had to be addressed. Pretty tedious work, as numerous files but I got my way through it.
+
+## File names changed 
+
+<img src="Images/File_name_changes.JPG" alt="histoplasma" width="900"/>
 
 ## Article writing 
 
