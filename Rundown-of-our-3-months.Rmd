@@ -50,8 +50,8 @@ knitr::include_graphics("https://raw.githubusercontent.com/FlicAnderson/EdinbR-2
 
 Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from the 21st of June until the start of our masters ### To Do: Flic add her bit
 
-* Studied Biotechnology 
-* About to study Bioinformatics 
+* Completed BSc (Hons) in Biological Sciences (Biotechnology)
+* About to move on to an MSc in Bioinformatics 
 * Studied Botany.
 
 
@@ -67,23 +67,23 @@ Currently Staff at the [Wallace Lab](https://ewallace.github.io/) working from t
 
 ## Where we started:
 
-We came in at the start of our honours project with no experience working with Git or Github, a limited understanding of R, and having rarely used command line. We quickly had to learn:
+We came in at the start of our honours project with no experience working with Git or GitHub, a limited understanding of R, and having rarely used the command line. We quickly had to learn:
 
-* How to confidently use command line 
+* How to confidently use the command line 
 * How to navigate different branches
 * How to push and pull commits 
 * How to set up and run the riboviz pipeline
 
 ## Overview of end of honours project
 
-* Sophie was looking into inhibitory codon pairs, and had created scripts with the goal of creating metafeature plots when given a  codon pairs or a single.
-* I was looking at how the use of upstream open reading frames changed under different conditions. I had created a script to plot reads on a transcript and compare the number of reads present in different regions. 
+* Sophie was looking into inhibitory codon pairs, and had created scripts with the goal of visualizing these features via metafeature plots when given a codon pair or a single codon.
+* Emma was looking at how the use of upstream open reading frames changed under different conditions, and had created a script to plot reads on a transcript and compare the number of reads present in different regions. 
 
 
 ## Upgraded configs 
 
 * Updated configuration yamls in example-datasets by running riboviz.tools.upgrade_config_file 
-* Necessary as older scripts lacked many of the newer parameters
+* Necessary as older scripts lacked many of the newer parameters in riboviz 2.0 which are needed for them to be run successfully 
 
 ## Added documentation
 
@@ -112,17 +112,22 @@ TO DO: add figure
 
 ## Updated file names 
 
-To meet reviewers feedback, some of the confusing names had to be addressed. Pretty tedious work, as numerous files but I got my way through it.
+To meet reviewers feedback from the riboviz paper submission, some of the misleading names had to be addressed. After some discussion new names were selected which then had to be replaced.
 
-## Article writing 
+A substantial task as there were numerous files and arguments that had to be renamed throughout riboviz. 
 
-* Open science as an undergraduate. 
-* look over and evaluate our time with the lab, gain a publication
-* Practice writing
+## Article for The Biochemist  
+
+* Topic: Open science in undergraduate projects. 
+
+* Allowed us to reflect and evaluate our time with the lab
+    - What good and bad
+    - Lessons learned 
+* Gained a publication and practiced our writing
 
 ## Created metafeature scripts
 
-* The goal of Sophie’s undergrad project was to investigate inhibitory codon pairs. This would be done by creating metafeature plots to see how different codons impact the rate of translation around codons of interest
+* The goal of Sophie’s undergraduate project was to investigate inhibitory codon pairs. This would be done by writing R scripts with the aim of creating metafeature plots to investigate how features impact the rate of translation.
 
 * There are currently 3 scripts, which are running but need some refactoring:
     - A script for codon pairs 
@@ -133,7 +138,7 @@ To meet reviewers feedback, some of the confusing names had to be addressed. Pre
 
 <img src="Images/Codon_pair_workflow.JPG" alt="Produced figure" width="700"/>
 
-## Codon pairs testing with YAL5 simulated dataset
+## Codon pairs testing with Mok-simYAL5 simulated dataset
 
 <img src="Images/Metafeature_profile_TCC_AAG.JPG" alt="Produced figure" width="500"/>
 
@@ -141,7 +146,7 @@ To meet reviewers feedback, some of the confusing names had to be addressed. Pre
 
 <img src="Images/Single-codon-workflow.JPG" alt="Produced figure" width="700"/>
 
-## Testing with YAL5 simulated dataset
+## Testing with Mok-simYAL5 simulated dataset
 
 <img src="Images/Meta_feature_plot_CGA_Mok-simYAL5.JPG" alt="Produced figure" width="500"/>
 
@@ -167,15 +172,16 @@ To meet reviewers feedback, some of the confusing names had to be addressed. Pre
 
 ## Next steps
 
+* Write TESTTHAT scripts to test functionality of scripts and increase the integrity of the codon and codon pairs scripts
 * Add functionality to identify feature locations for nt metafeature script
     - Is there a tool or protein database that can identify positions of secondary        structural features? Can this data be downloaded for each gene? Will the names       be compatible? Ligand binding positions?
-* Restructure to have one script containing function definitions and another calling the functions.
-* Run on multiple species and datasets. 
+* Restructure to have one script containing function definitions and another that calls these functions.
+* Run on multiple datasets across species. 
 
 ## What we learnt
 
 * Collaboration - prioritization of tasks that aid the team
-* Communication – better updates on Github and clearer comments in code
+* Communication – better updates on GitHub and clearer comments in code
 * Insights into the process of writing papers
 * Insights into software development and maintenance 
 * Greatly improved the quality of code we write
