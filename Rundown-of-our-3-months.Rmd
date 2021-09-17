@@ -124,27 +124,48 @@ To meet reviewers feedback, some of the confusing names had to be addressed. Pre
 
 ## Created metafeature scripts
 
+* The goal of Sophie’s undergrad project was to investigate inhibitory codon pairs. This would be done by creating metafeature plots to see how different codons impact the rate of translation around codons of interest
+
+* There are currently 3 scripts, which are running but need some refactoring:
+    - A script for codon pairs 
+    - A script for single codons 
+    - A script that works by nucleotide position
+
 ## Codon pairs workflow
 
-<div style="float: left; width: 30%;">
+<img src="Images/Codon_pair_workflow.JPG" alt="Produced figure" width="700"/>
 
-```{r, out.width = "300"}
-knitr::include_graphics("https://github.com/3mma-mack/riboviz-presentation/blob/2a0a531cd0ac941c99b1eff515acbc21bfc0c55c/Images/Codon_pair_workflow.JPG")
-```  
+## Codon pairs testing with YAL5 simulated dataset
 
-</div> 
+<img src="Images/Metafeature_profile_TCC_AAG.JPG" alt="Produced figure" width="500"/>
 
-## Single codons - why, how does it work?
+## Single codons workflow
 
-## Nucleotides - why, how does it work?
+<img src="Images/Single-codon-workflow.JPG" alt="Produced figure" width="700"/>
+
+## Testing with YAL5 simulated dataset
+
+<img src="Images/Meta_feature_plot_CGA_Mok-simYAL5.JPG" alt="Produced figure" width="500"/>
+
+## Nucleotides workflow
+
+<img src="Images/nucleotide_workflow.JPG" alt="Produced figure" width="700"/>
+
+## Testing with the Tinysim simulated dataset 
+
+<img src="Images/nucleotide_profile.JPG" alt="Produced figure" width="500"/>
 
 ## Recreating data from Gamble et al. 2016
 
-```{r, out.width = "300"}
-knitr::include_graphics("https://github.com/3mma-mack/riboviz-presentation/blob/rmd-version/Images/Gamble_et_al_figure.JPG")
-```  
+<img src="Images/Gamble_et_al_figure.JPG" alt="Gamble et al 2016 figure" width="250" style="float: left;"/>
+
+<img src="Images/metafeature_profile_CGA_GCG.JPG" alt="Produced figure" width="500" style="float: right;" />
 
 ## Comparing inhibitory and optimised codon pairs 
+
+<img src="Images/metafeature_profile_CGA_CCG.JPG" alt="inhibitory codon pairs" width="375" style="float: left;"/>
+
+<img src="Images/metafeature_profile_AGA_CCA.JPG" alt="optomised codon pair" width="375" style="float: right;" />
 
 ## Next steps
 
